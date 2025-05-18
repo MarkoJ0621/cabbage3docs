@@ -31,7 +31,7 @@ Cabbage 3 includes a variety of standard plugin controls such as sliders and but
 
 2. ## **Entirely new web-based interfaces**
 
-    You can design an entirely new web-based interface using any framework you prefer. To ensure communication with the Csound/Cabbage plugin, you’ll need to include the cabbage.js file, which contains some basic functions to send data to Csound from teh web UI. While this method does not offer access to the UI editing tools in Cabbage, it provides maximum freedom to design and implement unique UIs tailored to your needs.
+    You can design an entirely new web-based interface using any framework you prefer. To ensure communication with the Csound/Cabbage plugin, you’ll need to include the cabbage.js file, which contains some basic functions to send data to Csound from the web UI. While this method does not offer access to the UI editing tools in Cabbage, it provides maximum freedom to design and implement unique UIs tailored to your needs.
 
     You will also need to implement some kind of 'updateWidget' listener in order to receive update data from Csound. Please look through `cabbage/main.js` file for details on how this is done using the in-built widgets. 
 
